@@ -1,31 +1,33 @@
 body {
-    padding:20px;
-    margin:20px;
+    padding: 20px;
+    margin: 20px;
 }
 
 #menu ul {
-    padding:10px;
-    margin:-10px;
+    padding: 10px;
+    margin: -10px;
     float: left;
     width: 100%;
-    background-color:rgb(31, 102, 90);
-    list-style:none;
-    font:90% Tahoma;
+    background-color: rgb(31, 102, 90);
+    list-style: none;
+    font: 90% Tahoma;
 }
 
-#menu ul li { display: inline; }
+#menu ul li {
+    display: inline;
+}
 
 #menu ul li a {
-    background-color:rgb(30, 82, 69);
+    background-color: rgb(30, 82, 69);
     color: rgb(252, 252, 252);
     text-decoration: none;
-    border-bottom:6px solid rgb(31, 102, 90);
+    border-bottom: 6px solid rgb(31, 102, 90);
     padding: 25px 25px;
-    float:left;
+    float: left;
 }
 
-#menu ul li a:hover OKLLKMNNNJJ{
-    background-color:#D6D6D6;
+#menu ul li a:hover OKLLKMNNNJJ {
+    background-color: #D6D6D6;
     color: #414040;
-    border-bottom:6px solid #095886;
+    border-bottom: 6px solid #095886;
 }
