@@ -35,3 +35,18 @@
         font-size: 18px;
     }
 }
+
+#imgpos {
+    position: absolute;
+    left: 41%;
+    top: 12%;
+    margin-left: -110px;
+    margin-top: -100px;
+}
+
+h1 {
+    color: rgb(233, 142, 225);
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
