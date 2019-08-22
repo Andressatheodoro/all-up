@@ -1,0 +1,37 @@
+body {
+    padding:20px;
+    margin:20px;
+}
+
+#menu ul {
+    padding:10px;
+    margin:-10px;
+    float: left;
+    width: 100%;
+    background-color:rgb(125, 21, 223);
+    list-style:none;
+    font:90% Tahoma;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    background-color:rgb(125, 21, 223);
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    background-color:rgb(125, 21, 223);
+    padding: 25px 10px;
+    float:left;
+}
+
+#menu ul li a:hover {
+    background-color:rgb(255, 255, 255);
+    color: #414040;
+    border-bottom:10px solid #020100;
+}
+h1 {
+
+    font-size: 40px;
+    text-align: center;
+    color:rgb(125, 21, 223);
+    }
