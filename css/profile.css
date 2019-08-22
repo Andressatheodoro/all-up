@@ -1,6 +1,6 @@
 .sidebar {
     height: 100%;
-    width: 160px;
+    width: 215px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -48,5 +48,5 @@ h1 {
     color: rgb(233, 142, 225);
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 40px;
 }
