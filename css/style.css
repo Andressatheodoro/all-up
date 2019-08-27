@@ -2,7 +2,7 @@
             padding: 20px;
             margin: 20px;
         }
-
+        
         #menu ul {
             padding: 10px;
             margin: -10px;
@@ -12,11 +12,11 @@
             list-style: none;
             font: 90% Tahoma;
         }
-
+        
         #menu ul li {
             display: inline;
         }
-
+        
         #menu ul li a {
             background-color: rgb(30, 82, 69);
             color: rgb(252, 252, 252);
@@ -25,7 +25,7 @@
             padding: 25px 25px;
             float: left;
         }
-
+        
         #menu ul li a:hover OKLLKMNNNJJ {
             background-color: #D6D6D6;
             color: #414040;
