@@ -29,11 +29,39 @@ body {
 #menu ul li a:hover {
     background-color: rgb(255, 255, 255);
     color: #414040;
-    border-bottom: 10px solid #020100;
+    border-bottom: 10px solid rgb(7, 77, 90);
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
     color: rgb(7, 77, 90);
+}
+
+table,
+th,
+td {
+    border: solid 10px rgb(7, 77, 90);
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+th {
+    text-align: center;
+    font-size: 14pt;
+    background-color: rgb(7, 77, 90);
+    color: white;
+}
+
+td {
+    text-align: left;
+}
+
+p {
+    max-width: 600px;
+}
+
+tbody#destaque:hover,
+tr:hover {
+    background-color: rgb(238, 255, 0);
 }
