@@ -47,9 +47,9 @@ h2 {
 table,
 th,
 td {
-    border: solid 10px rgb(7, 77, 90);
+    border: solid 1px rgb(7, 77, 90);
     border-collapse: collapse;
-    padding: 3px;
+    padding: 1px;
 }
 
 th {
@@ -64,7 +64,7 @@ td {
 }
 
 p {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 tbody#destaque:hover,
