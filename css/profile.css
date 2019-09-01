@@ -1,11 +1,12 @@
-.sidebar {
+    .sidebar {
     height: 100%;
     width: 215px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(92, 3, 52);
+    background: -webkit-linear-gradient(top, #e26cb5, rgba(141, 216, 226, 0.8) 30%, rgba(204, 109, 113, 0) 100%);
+    background: linear-gradient(left, rgba(10, 200, 221, 0) 0%, #d181b2, );
     overflow-x: hidden;
     padding-top: 16px;
 }
@@ -14,7 +15,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #cc1269;
+    color: #df43c5;
     display: block;
 }
 
@@ -42,11 +43,9 @@
     top: 12%;
     margin-left: -110px;
     margin-top: -100px;
-}
-
-h1 {
-    color: rgb(233, 142, 225);
-    position: relative;
-    top: 20px;
-    left: 40px;
-}
+    h1 {
+        color: rgb(233, 142, 225);
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
