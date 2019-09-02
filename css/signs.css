@@ -71,3 +71,22 @@ tbody#destaque:hover,
 tr:hover {
     background-color: rgb(238, 255, 0);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    top: 10;
+    background-color: rgb(206, 186, 224);
+    color: white;
+    text-align: center;
+}
+
+#imgpos {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -100px;
+}

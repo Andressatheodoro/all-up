@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(216, 209, 215)
+}
+
+h1 {
+    position: relative;
+    font-size: 50px;
+    text-align: relative;
+    color: rgb(107, 0, 75);
+}
+
+h2 {
+    position: relative;
+    font-size: 30px;
+    text-align: relative;
+    color: rgb(107, 0, 75);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    top: 10;
+    background-color: rgb(206, 186, 224);
+    color: white;
+    text-align: center;
+}
+
+#imgpos {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -100px;
+}
+
+#imgpos {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    margin-left: -110px;
+    margin-top: -100px;
+}
