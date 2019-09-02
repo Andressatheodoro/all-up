@@ -1,63 +1,122 @@
- .sidebar {
-     height: 100%;
-     width: 215px;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     left: 0;
-     background: rgba(70, 1, 32, 0.8);
-     overflow-x: hidden;
-     padding-top: 16px;
- }
+.sidebar {
+    height: 100%;
+    width: 215px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: rgba(70, 1, 32, 0.8);
+    overflow-x: hidden;
+    padding-top: 16px;
+}
 
- .sidebar a {
-     padding: 6px 8px 6px 16px;
-     text-decoration: none;
-     font-size: 20px;
-     color: #df43c5;
-     display: block;
- }
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #df43c5;
+    display: block;
+}
 
- .sidebar a:hover {
-     color: #f1f1f1;
- }
+.sidebar a:hover {
+    color: #f1f1f1;
+}
 
- .main {
-     margin-left: 160px;
-     padding: 0px 10px;
- }
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
 
- @media screen and (max-height: 450px) {
-     .sidebar {
-         padding-top: 15px;
-     }
-     .sidebar a {
-         font-size: 18px;
-     }
- }
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+}
 
- #imgpos {
-     position: absolute;
-     left: 41%;
-     top: 12%;
-     margin-left: -110px;
-     margin-top: -100px;
- }
+#imgpos {
+    position: absolute;
+    left: 41%;
+    top: 12%;
+    margin-left: -110px;
+    margin-top: -100px;
+}
 
- h1 {
-     color: #df43c5;
-     position: relative;
-     top: 20px;
-     left: 40px;
- }
+h1 {
+    color: #df43c5;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
 
- .footer {
-     position: fixed;
-     left: 0;
-     bottom: 0;
-     width: 100%;
-     top: 10;
-     background-color: rgb(206, 186, 224);
-     color: white;
-     text-align: center;
- }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    top: 10;
+    background-color: rgba(70, 1, 32, 0.8);
+    color: white;
+    text-align: center;
+}
+
+.div1 {
+    position: absolute;
+    left: 25%;
+    /* posiciona a 90px para a esquerda */
+    top: 10%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.div2 {
+    position: absolute;
+    left: 60%;
+    /* posiciona a 90px para a esquerda */
+    top: 10%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.div3 {
+    position: absolute;
+    left: 60%;
+    /* posiciona a 90px para a esquerda */
+    top: 55%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.div4 {
+    position: absolute;
+    left: 25%;
+    /* posiciona a 90px para a esquerda */
+    top: 55%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+
+}
