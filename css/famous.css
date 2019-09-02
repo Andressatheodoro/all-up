@@ -52,14 +52,20 @@ h4 {
     color: rgb(107, 0, 75);
 }
 
+h5 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(204, 29, 151));
+}
+
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
     top: 10;
-    background-color: rgb(206, 186, 224);
-    color: white;
+    background-color: rgb(223, 185, 213);
+    color: rgb(204, 29, 151);
     text-align: center;
 }
 
