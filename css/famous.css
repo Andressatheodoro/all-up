@@ -38,3 +38,16 @@ h1 {
     text-align: center;
     color: rgb(250, 11, 178);
 }
+
+h3 {
+    font-size: 30px;
+    text-align: relative;
+    color: rgb(204, 29, 151);
+}
+
+h4 {
+    position: relative;
+    font-size: 20px;
+    text-align: relative;
+    color: rgb(107, 0, 75);
+}
