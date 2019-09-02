@@ -8,7 +8,7 @@ body {
     margin: -10px;
     float: left;
     width: 100%;
-    background-color: rgb(125, 21, 223);
+    background-color: rgb(29, 17, 94);
     list-style: none;
     font: 90% Tahoma;
 }
@@ -18,10 +18,10 @@ body {
 }
 
 #menu ul li a {
-    background-color: rgb(125, 21, 223);
+    background-color: rgb(29, 17, 94);
     color: rgb(252, 252, 252);
     text-decoration: none;
-    background-color: rgb(125, 21, 223);
+    background-color: rgb(29, 17, 94);
     padding: 25px 10px;
     float: left;
 }
@@ -35,13 +35,13 @@ body {
 h1 {
     font-size: 40px;
     text-align: center;
-    color: rgb(125, 21, 223);
+    color: rgb(29, 17, 94);
 }
 
 h5 {
     font-size: 25px;
     text-align: center;
-    color: rgb(125, 21, 223);
+    color: rgb(32, 98, 221);
 }
 
 .footer {
@@ -50,8 +50,8 @@ h5 {
     bottom: 0;
     width: 100%;
     top: 10;
-    background-color: rgb(206, 186, 224);
-    color: rgb(125, 21, 223);
+    background-color: rgb(167, 195, 236);
+    color: rgb(29, 17, 94);
     text-align: center;
 }
 

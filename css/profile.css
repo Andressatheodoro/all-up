@@ -71,7 +71,7 @@ h1 {
     width: 400px;
     height: 250px;
     background: rgb(231, 200, 213);
-    color: #FFF;
+    color: rgba(70, 1, 32, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -85,7 +85,7 @@ h1 {
     width: 400px;
     height: 250px;
     background: rgb(231, 200, 213);
-    color: #FFF;
+    color: rgba(70, 1, 32, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -94,12 +94,12 @@ h1 {
     position: absolute;
     left: 60%;
     /* posiciona a 90px para a esquerda */
-    top: 55%;
+    top: 50%;
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
     background: rgb(231, 200, 213);
-    color: #FFF;
+    color: rgba(70, 1, 32, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -108,12 +108,40 @@ h1 {
     position: absolute;
     left: 25%;
     /* posiciona a 90px para a esquerda */
-    top: 55%;
+    top: 50%;
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
     background: rgb(231, 200, 213);
-    color: #FFF;
+    color: rgba(70, 1, 32, 0.8);
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.div5 {
+    position: absolute;
+    left: 60%;
+    /* posiciona a 90px para a esquerda */
+    top: 90%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: rgba(70, 1, 32, 0.8);
+    padding: 5px;
+    border: 1px solid #CCC;
+}
+
+.div6 {
+    position: absolute;
+    left: 25%;
+    /* posiciona a 90px para a esquerda */
+    top: 90%;
+    /* posiciona a 70px para baixo */
+    width: 400px;
+    height: 250px;
+    background: rgb(231, 200, 213);
+    color: rgba(70, 1, 32, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
