@@ -62,7 +62,7 @@ h5 {
     position: absolute;
     left: 5%;
     /* posiciona a 90px para a esquerda */
-    top: 20%;
+    top: 30%;
     /* posiciona a 70px para baixo */
     width: 500px;
     height: 300px;
@@ -76,7 +76,7 @@ h5 {
     position: absolute;
     left: 55%;
     /* posiciona a 90px para a esquerda */
-    top: 20%;
+    top: 30%;
     /* posiciona a 70px para baixo */
     width: 500px;
     height: 300px;
@@ -90,7 +90,7 @@ h5 {
     position: absolute;
     left: 5%;
     /* posiciona a 90px para a esquerda */
-    top: 60%;
+    top: 80%;
     /* posiciona a 70px para baixo */
     width: 500px;
     height: 300px;
@@ -104,7 +104,7 @@ h5 {
     position: absolute;
     left: 55%;
     /* posiciona a 90px para a esquerda */
-    top: 60%;
+    top: 80%;
     /* posiciona a 70px para baixo */
     width: 500px;
     height: 300px;
@@ -115,7 +115,7 @@ h5 {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
