@@ -1,3 +1,9 @@
+body {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+
 .sidebar {
     height: 100%;
     width: 215px;
@@ -5,7 +11,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: rgba(70, 1, 32, 0.8);
+    background: linear-gradient(to left, rgba(36, 151, 218, 0.8) 0%, #11f0cb, rgba(26, 2, 245, 0.8) 40%, rgba(101, 138, 148, 0) 100%);
     overflow-x: hidden;
     padding-top: 16px;
 }
@@ -14,7 +20,7 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
-    color: #df43c5;
+    color: rgba(63, 4, 45, 0.8);
     display: block;
 }
 
@@ -45,21 +51,10 @@
 }
 
 h1 {
-    color: #df43c5;
+    color: rgba(63, 4, 45, 0.8);
     position: relative;
     top: 20px;
     left: 40px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    top: 10;
-    background-color: rgba(70, 1, 32, 0.8);
-    color: white;
-    text-align: center;
 }
 
 .div1 {
@@ -70,8 +65,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -84,8 +79,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -98,8 +93,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -112,8 +107,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -126,8 +121,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
@@ -140,8 +135,8 @@ h1 {
     /* posiciona a 70px para baixo */
     width: 400px;
     height: 250px;
-    background: rgb(231, 200, 213);
-    color: rgba(70, 1, 32, 0.8);
+    background: rgb(200, 221, 231);
+    color: rgba(2, 1, 70, 0.8);
     padding: 5px;
     border: 1px solid #CCC;
 }
