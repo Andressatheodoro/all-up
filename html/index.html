@@ -35,20 +35,21 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <form action="profile.html" method="get">
+                    <form data-toggle="validator" action="profile.html" method="get">
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Nome de usuário">
-
+                            <input type="text" class="form-control" placeholder="Nome de usuário" data-error="Por favor, informe a senha corretamente." required>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <div class="input-group form-group">
 
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
-                            <input type="password" class="form-control" placeholder="Senha">
+                            <input type="password" class="form-control" placeholder="Senha" data-error="Por favor, informe a senha corretamente." required>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <div class="row align-items-center remember">
                             <input type="checkbox">Lembre-se de mim
@@ -69,6 +70,11 @@
             </div>
         </div>
     </div>
+    <script>
+        $('#formExemplo').validator();
+    </script>
+
+    <script src="js/validator.min.js"></script>
 </body>
 
 </html>
